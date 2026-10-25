@@ -1,4 +1,4 @@
-# Maintainer: LineOS <info@endeavouros.com>
+# Maintainer: LineOS
 
 pkgname='endeavouros-skel-liveuser'
 pkgver=2.0
