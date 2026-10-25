@@ -2,7 +2,7 @@
 ColorScheme=eos-live
 
 [General]
-Name=EndeavourOS
+Name=LineOS
 Parent=FALLBACK/
 
 [Scrolling]
