@@ -273,6 +273,7 @@ ttf-opensans
 # ENDEAVOUROS REPO
 
 ## General
+endeavouros-branding
 eos-apps-info
 eos-hooks
 eos-log-tool
@@ -283,7 +284,6 @@ rate-mirrors
 reflector-simple
 welcome
 yay
-paru
 
 ## Calamares EndeavourOS
 calamares
