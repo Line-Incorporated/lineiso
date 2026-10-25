@@ -3,9 +3,9 @@
 pkgname='endeavouros-skel-liveuser'
 pkgver=2.0
 pkgrel=1
-pkgdesc='Liveuser specific skel setup for KDE EndeavourOS'
+pkgdesc='Liveuser specific skel setup for KDE LineOS'
 arch=('any')
-url='https://www.endeavouros.com'
+url='https://www.lineos.ro'
 license=('GPL3')
 source=()
 
