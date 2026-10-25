@@ -8,7 +8,7 @@
 # Redirect all output and errors to log
 exec >> /tmp/live-session.log 2>&1
 
-echo "==== Starting Plasma Live Session on EndeavourOS $(date) ===="
+echo "==== Starting Plasma Live Session on LineOS $(date) ===="
 
 # Automatically start Plasma Wayland only on TTY1
 if [[ -z "$WAYLAND_DISPLAY" ]] && [[ "$(tty)" == "/dev/tty1" ]]; then
