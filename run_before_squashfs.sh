@@ -127,9 +127,10 @@ echo " --> per default now in airootfs/etc/systemd/system/multi-user.target.want
 systemctl set-default multi-user.target
 
 echo "---> Set wallpaper for live-session and original for installed system --->"
-mv "/root/endeavouros-wallpaper.png" "/etc/calamares/files/lineos-wallpaper.png"
-mv "/root/livewall.png" "/usr/share/endeavouros/backgrounds/lineos-wallpaper.png"
-chmod 644 "/usr/share/endeavouros/backgrounds/"*".png"
+mkdir -p "/usr/share/lineos/backgrounds"
+mv "/root/lineos-wallpaper.png" "/etc/calamares/files/lineos-wallpaper.png"
+mv "/root/livewall.png" "/usr/share/lineos/backgrounds/lineos-wallpaper.png"
+chmod 644 "/usr/share/lineos/backgrounds/"*".png"
 
 echo "---> install bash configs back into /etc/skel for offline install target --->"
 cp -af "/root/filebackups/"{".bashrc",".bash_profile"} "/etc/skel/"
