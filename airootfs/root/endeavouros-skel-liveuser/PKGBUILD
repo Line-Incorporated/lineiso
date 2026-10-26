@@ -1,6 +1,6 @@
 # Maintainer: LineOS
 
-pkgname='endeavouros-skel-liveuser'
+pkgname='lineos-skel-liveuser'
 pkgver=2.0
 pkgrel=1
 pkgdesc='Liveuser specific skel setup for KDE LineOS'
