@@ -74,7 +74,7 @@ mkdir -p "/root/filebackups/"
 cp -af "/etc/skel/"{".bashrc",".bash_profile"} "/root/filebackups/"
 
 echo "---> Install liveuser skel (in case of conflicts use overwrite) --->"
-pacman -U --noconfirm --overwrite "/etc/skel/.bash_profile","/etc/skel/.bashrc" -- "/root/endeavouros-skel-liveuser/"*".pkg.tar.zst"
+pacman -U --noconfirm --overwrite "/etc/skel/.bash_profile","/etc/skel/.bashrc" -- "/root/lineos-skel-liveuser/"*".pkg.tar.zst"
 echo "---> start validate skel files --->"
 ls /etc/skel/.*
 ls /etc/skel/
