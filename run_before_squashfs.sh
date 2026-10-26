@@ -95,8 +95,8 @@ rm "/root/liveuser.png"
 
 echo "---> Remove liveuser skel to clean for target skel --"
 pacman -Sy
-pacman -Rns --noconfirm -- "endeavouros-skel-liveuser"
-rm -rf "/root/endeavouros-skel-liveuser"
+pacman -Rns --noconfirm -- "lineos-skel-liveuser"
+rm -rf "/root/lineos-skel-liveuser"
 
 echo "---> setup theming for root user --->"
 cp -a "/root/root-theme" "/root/.config"
