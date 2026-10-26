@@ -43,7 +43,7 @@ cd "/root"
 
 echo "---> Init & Populate keys --->"
 pacman-key --init
-pacman-key --populate archlinux lineos
+pacman-key --populate archlinux
 echo "---> generating actual ranked mirrorlist to fetch packages for offline install---> "
 cp -a "/etc/pacman.d/mirrorlist" "/etc/pacman.d/mirrorlist-from-package"
 mkdir -p "/etc/pacman.d/"
