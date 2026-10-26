@@ -166,9 +166,8 @@ _cleanup_pacstrap_dir() {
 
 # change for EndeavourOS start
 
-    # Pull /usr/lib/endeavouros-release at place to use for prompt info in Live Session
     mkdir -p "${pacstrap_dir}/usr/lib"
-    echo "VERSION=${iso_version}" >> "${pacstrap_dir}/usr/lib/endeavouros-release"
+echo "VERSION=${iso_version}" >> "${pacstrap_dir}/usr/lib/lineos-release"
 
 # change for EndeavourOS end
 
