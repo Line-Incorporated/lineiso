@@ -102,8 +102,12 @@ echo "---> setup theming for root user --->"
 cp -a "/root/root-theme" "/root/.config"
 rm -R "/root/root-theme"
 
+echo "---> ensure LineOS release info exists --->"
+mkdir -p "/usr/lib"
+echo "VERSION=$(date +%Y.%m.%d)" > "/usr/lib/lineos-release"
+
 echo "---> Add builddate to motd --->"
-cat "/usr/lib/endeavouros-release" >> "/etc/motd"
+cat "/usr/lib/lineos-release" >> "/etc/motd"
 echo "------------------" >> "/etc/motd"
 
 echo "---> Install locally built packages on ISO (place packages under airootfs/root/packages) --->"
